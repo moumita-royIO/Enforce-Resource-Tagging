@@ -31,6 +31,8 @@ The following **mandatory tags** were checked using Python Logic with Boto3:
    - Stores CloudTrail logs for auditing and troubleshooting.
    - Bucket policy ensures CloudTrail has write permissions.
 
+<img width="320" height="708" alt="enforce_tagging_architecture drawio" src="https://github.com/user-attachments/assets/35f95713-d8df-4911-965a-5e3e6793ad92" />
+
 ---
 
 ## Features
@@ -82,3 +84,5 @@ The following **mandatory tags** were checked using Python Logic with Boto3:
    terraform apply
    ```
 5. Test by creating a resource without tags and confirm Lambda enforces the policy. Sample log from my test is below:
+
+   <img width="1514" height="543" alt="image" src="https://github.com/user-attachments/assets/1f2a4ea4-698c-440c-b14a-51ddde72869f" />
