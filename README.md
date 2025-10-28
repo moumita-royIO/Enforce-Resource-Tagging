@@ -14,7 +14,7 @@ The following **mandatory tags** were checked using Python Logic with Boto3:
 
 ## Architecture
 
-1. **CloudTrail Trail**  
+1. **CloudTrail**  
    - Tracks all management API calls across AWS accounts and regions.
    - Delivers events to **EventBridge** in near real-time.
 
